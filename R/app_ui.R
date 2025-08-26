@@ -92,7 +92,7 @@ golem_add_external_resources <- function() {
     # )
     # Add here other external resources
     # for example, you can add shinyalert::useShinyalert()
-    HTML('<link rel="stylesheet" type="text/css" href="https://ewokozwok.github.io/Rolodex/www/framework7.bundle.min.css">'),
+    HTML('<link rel="stylesheet" type="text/css" href="https://ewokozwok.github.io/myexternalresources/shinyMobile2.0.1.min.css">'),
 
     # HTML('<link rel="stylesheet" type="text/css" href="https://ewokozwok.github.io/MHScreener/www/framework7.bundle.min.css">')
 
