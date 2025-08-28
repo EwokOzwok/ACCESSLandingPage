@@ -12,7 +12,7 @@ app_server <- function(input, output, session) {
     "Amanda (Thurs)",
     "Evan - (Mon, Tues, Wed)",
     "Meg - (Mon, Wed, Fri)",
-    "Clare - ()",
+    "Clare - (Mon, Wed, Fri)",
     "Ashleigh - (Mon, Wed, Fri)",
     "Gretchen - (Mon, Tues, Fri)")
 
