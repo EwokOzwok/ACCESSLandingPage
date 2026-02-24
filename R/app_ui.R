@@ -84,6 +84,7 @@ golem_add_external_resources <- function() {
     app_sys("app/www")
   )
 
+
   tags$head(
     favicon(),
     # bundle_resources(
