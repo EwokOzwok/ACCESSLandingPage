@@ -10,13 +10,12 @@ app_server <- function(input, output, session) {
 
   Navigator_List<-c("Choose a Navigator",
     "Evan - (Mon, Tues, Wed)",
+    "Ayanfe - (Mon, Thurs)",
     "Meg - (Mon, Wed, Fri)",
-    "Clare - (Mon, Wed, Fri)",
     "Ashleigh - (Mon, Wed, Fri)",
     "Alex - (Tues, Thurs)",
-    "Genesis - (Tues, Thurs)",
-    "Ayanfe - (Mon, Thurs)",
-    "Amanda - (Tues, Wed)")
+    "Amanda - (Tues, Wed)",
+    "Clare - (Mon, Wed, Fri)")
 
 
   first_item <- Navigator_List[1]
@@ -27,6 +26,9 @@ app_server <- function(input, output, session) {
 
   randomized_list <- c(first_item, shuffled_navs)
   print(randomized_list)
+
+  # Uncomment to return randomization
+  randomized_list = Navigator_List
 
   output$Randomized_Nav_List<-renderUI({
     tagList(
