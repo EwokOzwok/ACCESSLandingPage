@@ -27,8 +27,8 @@ app_server <- function(input, output, session) {
   randomized_list <- c(first_item, shuffled_navs)
   print(randomized_list)
 
-  # Uncomment to return randomization
-  randomized_list = Navigator_List
+  # Comment to return randomization
+  # randomized_list = Navigator_List
 
   output$Randomized_Nav_List<-renderUI({
     tagList(
