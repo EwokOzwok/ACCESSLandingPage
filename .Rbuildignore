@@ -8,3 +8,5 @@ $run_dev.*
 ^LICENSE\.md$
 ^app\.R$
 ^rsconnect$
+^\.positai$
+^\.claude$
