@@ -21,7 +21,7 @@ app_server <- function(input, output, session) {
     "Reema - (Tues, Fri)",
     "Ifeoma - (Tues, Wed)",
     "Joe - (Wed, Thurs)",
-    "Aysha - (Wed, Thurs)",
+    "Aysha - (Wed, Thurs)"
     )
 
   first_item <- Navigator_List[1]
