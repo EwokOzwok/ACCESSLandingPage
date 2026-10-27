@@ -15,7 +15,7 @@ app_server <- function(input, output, session) {
     "Gayathri - (Mon, Thurs, Fri)",
     "LJ - (Mon, Tues)",
     "Tyler - (Mon, Tues, Wed, Thurs)",
-    # "Edward - (Mon, Tues, Thurs, Fri)",
+    "Edward - (Mon, Tues, Thurs, Fri)",
     # "August - (Mon, Tues)",
     "Cassidy - (Mon, Wed)",
     "Reema - (Tues, Fri)",
